@@ -35,11 +35,13 @@ function Updater() {
 }
 
 function CompOne() {
+    console.log('CompOne')
     useOneTimeHook()
     return <div>comp one</div>
 }
 
 function CompTwo() {
+    console.log('CompTwo')
     useOneTimeHook()
     useTwoTimeHook()
     return <div>comp two</div>
